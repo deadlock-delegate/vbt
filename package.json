@@ -1,6 +1,6 @@
 {
   "name": "@deadlock-delegate/vbt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Track balance changes of your voters",
   "author": "deadock",
   "license": "MIT",
@@ -13,12 +13,12 @@
   "main": "dist/service-provider.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deadlock-delegate/votetrack.git"
+    "url": "git+https://github.com/deadlock-delegate/vbt.git"
   },
   "bugs": {
-    "url": "https://github.com/deadlock-delegate/votetrack/issues"
+    "url": "https://github.com/deadlock-delegate/vbt/issues"
   },
-  "homepage": "https://github.com/deadlock-delegate/votetrack",
+  "homepage": "https://github.com/deadlock-delegate/vbt",
   "files": [
     "dist"
   ],
