@@ -272,7 +272,7 @@ export default class Service {
             // amount = 15.000
             const bn_transfer_amount = new BigNumber(amount.toString());
             const bn_balance = new BigNumber(recipientBalance.toString());
-            const balanceChangePct = bn_transfer_amount.times(100).dividedBy(bn_balance.plus(bn_transfer_amount));
+            const balanceChangePct = bn_transfer_amount.times(100).dividedBy(bn_balance.minus(bn_transfer_amount));
             const changePct = balanceChangePct.toFormat(2);
 
             notifications.push([
