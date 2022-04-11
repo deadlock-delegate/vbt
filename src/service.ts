@@ -1,5 +1,5 @@
 import { Container, Contracts, Enums as AppEnums, Utils as AppUtils } from "@arkecosystem/core-kernel";
-import { Interfaces, Utils as CryptoUtils, Enums } from "@arkecosystem/crypto";
+import { Interfaces, Utils as CryptoUtils } from "@arkecosystem/crypto";
 import axios from "axios";
 import BigNumber from "bignumber.js";
 
