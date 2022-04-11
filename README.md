@@ -3,7 +3,7 @@
 Track balance changes of your voters. Useful to identify strange behaviour if any of your voter is 
 attempting to game your TBW payout script.
 
-![Sample](sample.png)
+![Sample](https://github.com/deadlock-delegate/vbt/raw/master/sample.png)
 
 #### ❤️ Support maintenance and development of plugins
 If you find this or other plugins useful please consider voting for `deadlock` delegate on Solar or Ark networks.
@@ -51,7 +51,7 @@ Before restarting your process, you need to add the plugin into the very end  `c
 
 ### For production (eg. mainnet/testnet/devnet):
 
-1. Install plugin: `<command> plugin:install @deadlock-delegate/vbt`, eg: `ark plugin:install @deadlock-delegate/notifier` or `solar plugin:install @deadlock-delegate/vbt`
+1. Install plugin: `<command> plugin:install @deadlock-delegate/vbt`, eg: `ark plugin:install @deadlock-delegate/vbt` or `solar plugin:install @deadlock-delegate/vbt`
 2. Add plugin to `app.json`
 3. Start your node as you usually start it 
 
@@ -63,7 +63,7 @@ Assuming you don't run testnet locally via docker:
 2. Add plugin to `app.json`, for testnet the file can be found in: `core/packages/core/bin/config/testnet/app.json`
 3. Go into the plugin's directory: `cd vbt`
 4. Build plugin: `yarn build`
-5. Run `yarn full:testnet` inside `core/packages/core` directory to start testnet with notifier plugin
+5. Run `yarn full:testnet` inside `core/packages/core` directory to start testnet with vbt plugin
 
 ### Configuration explanation
 
