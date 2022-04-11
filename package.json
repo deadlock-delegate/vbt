@@ -1,6 +1,6 @@
 {
   "name": "@deadlock-delegate/vbt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Track balance changes of your voters",
   "author": "deadock",
   "license": "MIT",

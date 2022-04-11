@@ -340,7 +340,10 @@ export default class Service {
         // }
 
         const { type, asset } = data;
-        if (![Enums.TransactionType.Transfer, Enums.TransactionType.MultiPayment].includes(type)) {
+        // TODO: for some reasons Enums always returned undefined when running via plugin:intall on solar
+        // hence why I've hardcoded transaction types
+        // Enums.TransactionType.Transfer, Enums.TransactionType.MultiPayment
+        if (![0, 6].includes(type)) {
             return [];
         }
 
